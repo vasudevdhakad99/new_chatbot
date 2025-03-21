@@ -1,4 +1,8 @@
-      - name: Push to hub
-        env:
-          HF_TOKEN: ${{ secrets.HF_TOKEN }}
-        run: git push --force https://vasu1231:$HF_TOKEN@huggingface.co/spaces/vasu1231/chatbot-app main
+title: chatbot-app
+emoji:😍
+colorFrom : blue
+colorTo: red
+sdk:streamlit
+sdk_version:latest
+app_file: app.py
+pinned: false
